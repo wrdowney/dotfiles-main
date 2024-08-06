@@ -84,13 +84,13 @@
 
     themes = {
       Dark = "Charmful Dark";
-      Light = "Gnome Light";
+      # Light = "Gnome Light";
     };
 
     settings = {
       enable_wayland = false;
       color_schemes = {
-        "Gnome Light" = gnome-light;
+        # "Gnome Light" = gnome-light;
         "Charmful Dark" = charmful-dark;
       };
       color_scheme = "Charmful Dark";
